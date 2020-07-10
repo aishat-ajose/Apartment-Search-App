@@ -17,7 +17,7 @@ Widget social(String imgPath){
 
 Widget fp(BuildContext context,  String text){
   return Container(
-    margin: EdgeInsets.only(top:100),
+    margin: EdgeInsets.only(top:60),
     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
@@ -28,7 +28,7 @@ Widget fp(BuildContext context,  String text){
         ),
         SizedBox(height: 20,),
         Text(text, style:
-            TextStyle(color:Colors.black,fontSize: 25, fontWeight: FontWeight.w400)
+            TextStyle(color:Colors.black,fontSize: 25, fontWeight: FontWeight.w600)
           ),
         
       ],

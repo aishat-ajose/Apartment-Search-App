@@ -17,7 +17,7 @@ class SignUpPage extends StatelessWidget {
               fp(context, "Sign Up"),
               form(context, "Sign Up"),
               Container(
-                padding: EdgeInsets.symmetric(vertical:15),
+                padding: EdgeInsets.symmetric(vertical:20),
                 alignment: Alignment.center,
                 child: Text("or",style: TextStyle(color: Colors.grey[600], fontSize: 20)),
               ),
