@@ -1,7 +1,7 @@
-import 'package:authenticate/signin.dart';
+import 'package:authenticate/authenticate/signin.dart';
 import 'package:flutter/material.dart';
 
-class FP extends StatelessWidget {
+class CoverPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +32,7 @@ class FP extends StatelessWidget {
             )
           ),
           Container(
-            margin: EdgeInsets.only(top:15),
+            margin: EdgeInsets.only(top:20),
             decoration: BoxDecoration(
 
                   gradient: new LinearGradient(
@@ -53,7 +53,7 @@ class FP extends StatelessWidget {
                     decoration: BoxDecoration(
                       color:Colors.white,
                     ),
-                    height:MediaQuery.of(context).size.height/2 + 85,
+                    height:MediaQuery.of(context).size.height/2 + 80,
                   ),
                 ),
                 Positioned(
